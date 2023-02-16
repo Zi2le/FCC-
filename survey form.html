@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="so.css">
+</head>
+<body>
+    <main>
+     <section>
+            <h1 id="title">
+                SURVEY FORMS
+            </h1>
+            <p id="description"> thank you for assisting us to improve zith</p>
+            <form  id="survey-form">
+               <h3>
+                <label for="name" id="name-label">
+                name
+                </label>
+            </h3>
+                <input type="text" name="enter your name" id="name" placeholder="enter your name" required>
+             <h3>
+                <label for="email" id="email-label">
+                email
+                </label>
+            </h3>
+           <input type="email" name="email" id="email" placeholder="enter your email" required>
+           <h3> <label for="name" id="number-label">
+            Age <span>(optional)</span> 
+        </label> </h3>
+           <input type="number" name="number" id="number" min="0" max="1000" placeholder="age" >
+         <h3> which option best describes your current post</h3>
+         <select id="dropdown">
+            <optgroup  label="select current post">
+                <option value="sp">select your current post</option>
+                <option value="ss">student</option>
+                <option value="ed">employed</option>
+                <option value="ue">unemployed</option>
+                <option value="py" >prefer not to say</option>
+                <option value="or">other</option>
+                <option value="ne">none</option>
+            </optgroup>
+        </select>
+         <h3 class="pi"> would you recommend zith to a friend</h3>
+         <ul class="li">
+         <li><input type="radio" name="why" id="yes" value="good">
+         <label for="yes">yes</label></li>
+         <li><input type="radio" name="why" id="no" value="fail"> 
+<label for="no">no</label></li>
+<li><input type="radio" name="why" id="maybe" value="average">
+<label for="maybe">maybe</label></li>
+<li><input type="radio" name="why" id="not quite sure" value="poor">
+    <label for="not quite sure">not quite sure</label></li>
+    </ul>
+         <h3> what is your favourite feature of zith</h3>
+         <select  id="dropdown">
+            <optgroup label="select an option">
+         <option value="ps"> select an option</option>
+
+         <option value="pj">projects</option>
+
+         <option value="cc">challenges</option>
+
+         <option value="ff">food and drinks</option>
+
+         <option value="co">community</option>
+
+         <option value="op">open sources and different opportunities</option>
+            </optgroup>
+            
+         </select>
+         <h3 class="pi">what additionally programs should be available in zith? 
+            <span>(check all that apply)</span> </h3>
+          
+         <ul class="li">
+            <li><input type="checkbox" name="front-end projects" id="front-end projects" value="front">
+         <label for="front-end projects">front-end projescts</label></li>
+         <li><input type="checkbox" name="back-end projects" id="back-end projects" value="back">
+        <label for="back-end projects">back-end projects</label></li>
+        <li><input type="checkbox" name="data visualization" id="data visualization" value="data">
+        <label for="data visualization">data visualization</label></li>
+        <li><input type="checkbox" name="challenges" id="challenges" value="challenge">
+         <label for="challenges">challenges</label></li>
+         <li><input type="checkbox" name="open sources community" id="open sources community" value="open">
+         <label for="open sources community">open sources community</label></li>
+         <li><input type="checkbox" name="gitter helps rooms" id="gitter helps rooms" value="gitter">
+         <label for="gitter helps rooms">gitter helps rooms</label></li>
+         <li> <input type="checkbox" name="vidoes" id="vidoes" value="video">
+         <label for="vidoes">vidoes</label></li>
+         <li> <input type="checkbox" name="city meetups" id="city meetups" value="city">
+         <label for="city meetups">city meetups</label></li>
+         <li><input type="checkbox" name="wiki" id="wiki" value="when">
+         <label for="wiki">wiki</label></li>
+         <li><input type="checkbox" name="forum" id="forum" value="for">
+        <label for="forum">forum</label></li>
+        <li><input type="checkbox" name="additional courses" id="additional courses" value="additional">
+        <label for="additional courses">additional courses</label></li>
+    </ul>
+     <h3> any comments or suggestion?</h3>
+    <textarea id="comments" name="comments" placeholder="Enter Your Comments Here..">
+    </textarea>
+    <a href="index.html" target="_blank"><p><input type="submit" value="submit" id="submit"></p></a>
+    </form>
+        </section>
+    </main>
+</body>
+</html>

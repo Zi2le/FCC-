@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+:root{
+    font-family: 'Saira Condensed', sans-serif;
+    --bg-:gray;
+    --tx-:white;
+    --cr-:black;
+    --s-: rgba(25, 25, 112, 0.497);
+    --b-: lavender;
+}
+body{
+   
+    background-color: rgba(0, 0, 0, 0.822);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/01259a16235741.562a76ac176c4.jpg);
+   background-blend-mode: overlay;
+   background-attachment: fixed;
+   
+   }
+#title{
+   display: block;
+   text-align: center;
+   font-size: 25px;
+    font-weight: 300px;
+    color: var(--tx-);
+}
+#description{
+    display: block;
+    text-align:center;
+    text-transform: capitalize;
+    font-size: 19px;
+    font-weight: 200px;
+    color: var(--tx-);
+}
+form{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 0 auto;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 450px;
+    text-transform: capitalize;
+  
+    background-color:rgba(47, 79, 79, 0.689) ;
+    color: var(--tx-);
+    padding: 3em;
+}
+#name{
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid var(--b-);
+    text-transform: capitalize;
+}
+#email{
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid var(--b-);
+    text-transform: capitalize;
+}
+#number{
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid var(--b-);
+    text-transform: capitalize;
+}
+select{
+    color: var(--bg-);
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    }
+.pi{
+    padding-top: 6px;
+}
+.li{
+    list-style-type: none;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+}
+li{
+    padding: 5px;
+}
+[type="checkbox"]{
+    min-height: 10px;
+    min-width:10px ;
+    accent-color: var(--cr-);
+}
+[type="radio"]{
+    min-height: 10px;
+    min-width: 10px;
+   accent-color: var(--cr-);  
+}
+#submit{
+   padding: 10px 70px;
+   width: 100%;
+   border-radius: 5px;
+    border: 2px solid transparent; 
+   background-color:var(--s-) ;
+   cursor: pointer;
+   color: aliceblue;
+   transition-duration: 500ms;
+   }
+#submit:hover{
+ background-color: var(--bg-);
+}
+#submit:focus{
+    border-color: var(--cr-);
+}
+#comments{
+min-height: 120px;
+width: 100%;
+padding: 2px;
+resize: vertical;
+border-radius: 5px;
+line-height: 2.4;
+font-weight: 200;
+border: 2px solid transparent;
+outline: none;
+}
+#comments:focus{
+    border-color: var(--cr-);
+  }
+  span{
+    font-size: 15px;
+  }
