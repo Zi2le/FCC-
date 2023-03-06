@@ -1,0 +1,67 @@
+body{
+    background-color: #eee;
+}
+#main{
+  height: 100vh;
+  background-color: white;
+ 
+  
+  
+}
+#sensei{
+    display: block;
+    text-align: center;
+   
+}
+#title{
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    
+  } 
+  #image{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+       
+  }
+  #img-caption{
+    display: block;
+   text-align: center;
+  }
+.ka{
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+#tribute-info{
+    
+    margin: 0% 25%;
+   
+ 
+}
+li{
+    padding: 10px;
+}
+#tribute-link{
+    text-decoration: none;
+}
+.kaka{
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin: 15px auto;
+}
+.kas{
+    display: block;
+   margin: 15px auto;
+   text-align: center;
+   width: 70%;
+}
+
+
+   
+
+
+
